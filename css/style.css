@@ -727,7 +727,7 @@ img {
     align-items: center;
 }
 
-.check-text a {
+.modal-check-link {
     text-decoration: underline;
     color: #4D5AE5;
     font-size: 12px;
