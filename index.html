@@ -409,7 +409,8 @@
             </div>
             <div class="footer-block-form">
                 <form class="footer-form">
-                    <label for="footer-user-email" class="footer-text footer-label">Subscribe</label>
+                    <p class="footer-text footer-label">Subscribe</p>
+                    <!-- <label for="footer-user-email" class="footer-text footer-label">Subscribe</label> -->
                     <div class="footer-form-activ">
                         <input type="email" name="footer-user-email" id="footer-user-email" class="footer-input"
                             placeholder="E-mail">
@@ -426,7 +427,7 @@
             </div>
         </div>
     </footer>
-    <div class="backdropo">
+    <div class="backdropo is-open">
         <div class="modal">
             <button type="button" class="modal-close-btn">
                 <svg class="modal-icon-close" width="8" height="8">
@@ -439,7 +440,7 @@
                     <label for="user-name" class="modal-label">Name</label>
                     <div class="modal-input-wrap">
                         <input type="text" name="user-name" id="user-name" class="modal-input" required>
-                        <svg class="modal-icon" width="18" height="18">
+                        <svg class="modal-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-name"></use>
                         </svg>
                     </div>
@@ -463,20 +464,23 @@
                     </div>
                 </div>
                 <div class="modal-field">
-                    <label for="user-text" class="modal-label">Comment</label>
-                    <textarea id="user-text" name="user-text" class="modal-textarea modal-input-wrap"
+                    <label for="user-comment" class="modal-label">Comment</label>
+                    <textarea id="user-comment" name="user-comment" class="modal-textarea modal-input-wrap"
                         placeholder="Text input"></textarea>
                 </div>
-                <div class="modal-field">
-                    <input type="checkbox" name="policy" id="policy" value="true" class="form-check visually-hidden" />
-                    <label for="policy" class="check-text">
-                        <span>
-                            <svg class="modal-check-top" width="8" height="8">
+                <div class="modal-check-agree">
+                    <input type="checkbox" name="user-privacy" id="user-privacy" value="true"
+                        class="form-check visually-hidden" />
+                    <!-- <div class="modal-check-agree"> -->
+                    <label for="user-privacy" class="check-text">
+                        <span class="modal-check-span">
+                            <svg class="modal-check-top" width="10" height="10">
                                 <use href="./images/icons.svg#icon-check"></use>
                             </svg>
                         </span>
                         I accept the terms and conditions of the &nbsp;<a href="">Privacy Policy</a>
                     </label>
+                    <!-- </div> -->
                 </div>
                 <button type="submit" class="modal-btn">Send</button>
             </form>
