@@ -500,14 +500,15 @@ img {
 
 .footer-form {
     display: flex;
+     gap: 24px;
 } 
 
 
 
-.footer-form-activ{
+/* .footer-form-activ{
     display: flex;
     gap: 24px;
-}
+} */
 
 .footer-input {
     color: #FFF;
