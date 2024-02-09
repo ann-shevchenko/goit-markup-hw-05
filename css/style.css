@@ -626,6 +626,7 @@ img {
 .modal-close-btn:focus > .modal-icon-close {
     fill: #FFF;
 }
+
 .modal-titel {
     color: #2E2F42;
     text-align: center;
@@ -668,7 +669,6 @@ img {
 
 .modal-input-wrap {
     position: relative;
-    /* margin-bottom: 8px; */
 }
 
 .modal-icon {
@@ -722,7 +722,7 @@ img {
     font-size: 12px;
     line-height: 1.17; 
     letter-spacing: 0.04em;
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 
