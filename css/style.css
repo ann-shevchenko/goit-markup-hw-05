@@ -485,14 +485,17 @@ img {
 }
 
 .footer-block-form {
+     display: flex;
+    flex-direction: column;
+    margin-left: 80px;
 }
 
-.footer-form {
+/* .footer-form {
     display: flex;
     flex-direction: column;
     margin-left: 80px;
     
-}
+} */
 
 .footer-form-text {
     margin-bottom: 16px;
